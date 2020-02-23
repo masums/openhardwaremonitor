@@ -4,7 +4,7 @@
   License, v. 2.0. If a copy of the MPL was not distributed with this
   file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
-  Copyright (C) 2009-2015 Michael Möller <mmoeller@openhardwaremonitor.org>
+  Copyright (C) 2009-2020 Michael Möller <mmoeller@openhardwaremonitor.org>
 	
 */
 
@@ -27,6 +27,7 @@ namespace OpenHardwareMonitor.Hardware.LPC {
 
     IT8620E = 0x8620,
     IT8628E = 0x8628,
+    IT8688E = 0x8688,
     IT8705F = 0x8705,
     IT8712F = 0x8712,
     IT8716F = 0x8716,
@@ -35,8 +36,9 @@ namespace OpenHardwareMonitor.Hardware.LPC {
     IT8721F = 0x8721,
     IT8726F = 0x8726,
     IT8728F = 0x8728,
+    IT879XE = 0x8733, // IT8792E, IT8795E
     IT8771E = 0x8771,
-    IT8772E = 0x8772,
+    IT8772E = 0x8772,    
 
     NCT6771F = 0xB470,
     NCT6776F = 0xC330,
@@ -74,6 +76,7 @@ namespace OpenHardwareMonitor.Hardware.LPC {
 
         case Chip.IT8620E: return "ITE IT8620E";
         case Chip.IT8628E: return "ITE IT8628E";
+        case Chip.IT8688E: return "ITE IT8688E";
         case Chip.IT8705F: return "ITE IT8705F";
         case Chip.IT8712F: return "ITE IT8712F";
         case Chip.IT8716F: return "ITE IT8716F";
@@ -82,8 +85,9 @@ namespace OpenHardwareMonitor.Hardware.LPC {
         case Chip.IT8721F: return "ITE IT8721F";
         case Chip.IT8726F: return "ITE IT8726F";
         case Chip.IT8728F: return "ITE IT8728F";
+        case Chip.IT879XE: return "ITE IT879XE";
         case Chip.IT8771E: return "ITE IT8771E";
-        case Chip.IT8772E: return "ITE IT8772E";
+        case Chip.IT8772E: return "ITE IT8772E";        
 
         case Chip.NCT610X: return "Nuvoton NCT610X";
 
